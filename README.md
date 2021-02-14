@@ -9,4 +9,5 @@ When you're done, go to Simple Console Bootstrapper/Simple Console Bootstrapper/
 
 Unfortunately, It just downloads the file and doesn't extract any file with a zipping format.
 
+Example/Screeshot:
 ![Screenshot](https://raw.githubusercontent.com/TERIHAX/Simple-CSharp-Console-Bootstrapper/main/Example.png)
