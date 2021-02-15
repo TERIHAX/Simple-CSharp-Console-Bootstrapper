@@ -1,4 +1,4 @@
-# Simple C# Console Bootstrapper 📥
+# 📥 Simple C# Console Bootstrapper
 
 No need to give credits! You can say that you made the whole thing because I don't mind. 😀
 Also, feel free to decompile this!
