@@ -1,6 +1,6 @@
 # 📥 Simple C# Console Bootstrapper
 
-# **‼IMPORTANT PLZ READ‼**
+# **❕ IMPORTANT ❕**
 
 ᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼![Logo](https://raw.githubusercontent.com/TERIHAX/Simple-CSharp-Console-Bootstrapper/main/Logo.png)
 
