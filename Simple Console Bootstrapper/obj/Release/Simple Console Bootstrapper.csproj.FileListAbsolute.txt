@@ -1,7 +1,0 @@
-D:\Applications\Simple Console Bootstrapper\Simple Console Bootstrapper\bin\Release\Simple Console Bootstrapper.exe.config
-D:\Applications\Simple Console Bootstrapper\Simple Console Bootstrapper\bin\Release\Simple Console Bootstrapper.exe
-D:\Applications\Simple Console Bootstrapper\Simple Console Bootstrapper\bin\Release\Simple Console Bootstrapper.pdb
-D:\Applications\Simple Console Bootstrapper\Simple Console Bootstrapper\obj\Release\Simple Console Bootstrapper.csprojAssemblyReference.cache
-D:\Applications\Simple Console Bootstrapper\Simple Console Bootstrapper\obj\Release\Simple Console Bootstrapper.csproj.CoreCompileInputs.cache
-D:\Applications\Simple Console Bootstrapper\Simple Console Bootstrapper\obj\Release\Simple Console Bootstrapper.exe
-D:\Applications\Simple Console Bootstrapper\Simple Console Bootstrapper\obj\Release\Simple Console Bootstrapper.pdb
