@@ -2,7 +2,7 @@
 
 **IMPORTANT MUST READ**
 
-᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼![Logo](https://raw.githubusercontent.com/TERIHAX/Simple-CSharp-Console-Bootstrapper/main/Logo.png)
+᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼![Logo](https://raw.githubusercontent.com/TERIHAX/Simple-CSharp-Console-Bootstrapper/main/Logo.png)
 
 No need to give credits! You can say that you made the whole thing because I don't mind. 😀
 Also, feel free to decompile this!
