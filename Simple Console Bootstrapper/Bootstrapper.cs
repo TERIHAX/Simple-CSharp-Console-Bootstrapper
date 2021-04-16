@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net;
 using System.IO;
 using System.Threading.Tasks;
@@ -6,7 +6,7 @@ using Simple_Console_Bootstrapper;
 using Simple_Console_Bootstrapper.Simple_Console_Bootstrapper;
 
 namespace Simple_Console_Bootstrapper
-{ // If you don't understand why I put { in the next line, it's because I wanna make the code shorter. It still works the same.
+{
     namespace Simple_Console_Bootstrapper
     { // Also, please don't criticize me for my code, I'm not the best at C#.
         class Bootstrapper {
@@ -18,18 +18,18 @@ namespace Simple_Console_Bootstrapper
             {
                 Console.Title = "Bootstrapper";
                 Console.Write("[Bootstrapper] Loading...");
-                Task.Delay((int)0.3);
+                Task.Delay(300);
                 Console.Write("\r\n[Bootstrapper] Downloading Files...");
                 using (var wc = new WebClient())
                 {
                     wc.DownloadFile(directDownloadURL, fileName); // Don't mess anything here.
-                    Task.Delay((int)2.5);
+                    Task.Delay(250);
                     if (File.Exists(fileName))
                     {
                         Console.Write("\r\n[Bootstrapper] Download Complete!");
-                        Task.Delay((int)0.3);
-                        Console.Write("\r\n[Bootstrapper] Exiting Bootstrapper...");
-                        Task.Delay(5);
+                        Task.Delay(300);
+                        Console.Write("\r\n[Bootstrapper] Press any key to Exit...");
+                        Console.ReadKey();
                     }
                     else
                     {
@@ -37,8 +37,8 @@ namespace Simple_Console_Bootstrapper
                         Task.Delay((int)0.15);
                         Console.Write("\r\n[Bootstrapper] Error: The link might have been not a direct link, or the file name was incorrect.");
                         Task.Delay((int)0.3);
-                        Console.Write("\r\n[Bootstrapper] Exiting Bootstrapper...");
-                        Task.Delay(5);
+                        Console.Write("\r\n[Bootstrapper] Press any key to Exit...");
+                        Console.ReadKey();
                     }
                 }
             }
