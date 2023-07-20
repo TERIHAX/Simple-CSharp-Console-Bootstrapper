@@ -1,7 +1,7 @@
 using System;
 using System.Net;
 using System.IO;
-using System.Threading.Tasks;
+using System.Threading;
 using Simple_Console_Bootstrapper;
 using Simple_Console_Bootstrapper.Simple_Console_Bootstrapper;
 
@@ -20,23 +20,23 @@ namespace Simple_Console_Bootstrapper
                 Console.Write("[Bootstrapper] Loading...");
                 Task.Delay(300);
                 Console.Write("\r\n[Bootstrapper] Downloading Files...");
-                using (var wc = new WebClient())
+                using (var wc = new WebClient() { Proxy = null })
                 {
                     wc.DownloadFile(directDownloadURL, fileName); // Don't mess anything here.
                     Task.Delay(250);
                     if (File.Exists(fileName))
                     {
                         Console.Write("\r\n[Bootstrapper] Download Complete!");
-                        Task.Delay(300);
+                        Thread.Sleep(300);
                         Console.Write("\r\n[Bootstrapper] Press any key to Exit...");
                         Console.ReadKey();
                     }
                     else
                     {
                         Console.Write("\r\n[Bootstrapper] Download Failed.");
-                        Task.Delay((int)0.15);
+                        Thread.Sleep(150);
                         Console.Write("\r\n[Bootstrapper] Error: The link might have been not a direct link, or the file name was incorrect.");
-                        Task.Delay((int)0.3);
+                        Thread.Sleep(300);
                         Console.Write("\r\n[Bootstrapper] Press any key to Exit...");
                         Console.ReadKey();
                     }
